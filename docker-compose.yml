@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgre:
+    container_name: 'postgres_base_webmotors'
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password123456
+      POSTGRES_USER: webmotors
+      POSTGRES_DB: base
+    ports:
+      - '5432:5432'
+    expose:
+      - '5432'

@@ -9,6 +9,16 @@ Api em .Net contempla:
 - AutoMapper
 - Swagger
 
+#### Executar a aplicação:
+#### Rebuild ou caso esteja usando cli do dotnet, na raíz do projeto executar o comando para instalar as dependências
+```
+dotnet restore
+```
+#### Rodar projeto da Api ou executar o run no path da Api
+```
+dotnet run
+```
+
 ## Caso precise inicializar um banco relacional Postgres e rodar a migrations, siga os passos
 #### Foi disponibilizado um docker-compose(Docker é uma dependência) com o container do postgres, para iniciar o container com o banco rodar:
 
